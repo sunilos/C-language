@@ -1,29 +1,21 @@
 #include <stdio.h>
 
-/**
- * @brief The main function demonstrates the use of a switch statement.
- * 
- * This function uses a switch statement to print the name of the day corresponding to the integer value of 'day'.
- * 
- * @return int Returns 0 to indicate successful execution.
- */
 int main() {
-    int day = 3;  /**< Integer variable representing the day of the week. */
+    int day = 3;
 
-    // Switch statement to determine and print the day of the week
     switch (day) {
         case 1:
-            printf("Monday\n");   /**< Prints "Monday" if day is 1. */
-            break;               /**< Exits the switch statement after the case is executed. */
+            printf("Monday\n");
+            break;
         case 2:
-            printf("Tuesday\n");  /**< Prints "Tuesday" if day is 2. */
-            break;               /**< Exits the switch statement after the case is executed. */
+            printf("Tuesday\n");
+            break;
         case 3:
-            printf("Wednesday\n");/**< Prints "Wednesday" if day is 3. */
-            break;               /**< Exits the switch statement after the case is executed. */
+            printf("Wednesday\n");
+            break;
         default:
-            printf("Other day\n");/**< Prints "Other day" for any value not explicitly handled by the cases. */
+            printf("Other day\n");
     }
 
-    return 0;   /**< Return 0 to indicate successful execution. */
+    return 0;
 }
